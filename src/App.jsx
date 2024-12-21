@@ -1,11 +1,16 @@
-import React from 'react'
+import React from "react";
+import Navbar from "./components/manual/Navbar/Navbar";
+import Hero from "./components/manual/Hero/Hero";
 
 const App = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <>
+      <main className="overflow-x-hidden">
+        <Navbar />
+        <Hero />
+      </main>
+    </>
+  );
+};
 
-export default App
+export default App;
